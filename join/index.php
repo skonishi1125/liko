@@ -22,11 +22,11 @@ if(!empty($_POST)){
     $fileName = $_FILES['image']['name'];
     if(!empty($fileName)) {
         $ext = substr($fileName, -4);
-        if($ext != '.jpg' && $ext !='.png' && $ext !='.PNG' 
-            && $ext !='.gif' && $ext != 'JPEG' && $ext != 'jpeg'){
+        if($ext != '.jpg' && $ext !='.png' && $ext !='.PNG'
+            && $ext !='.gif' && $ext != 'JPEG' && $ext != 'jpeg' && $ext != '.JPG'){
                 $error['image'] = 'type';
         }
-    } 
+    }
 
     //$errorに何もない場合(重複の時！)
     if(empty($error)){

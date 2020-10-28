@@ -78,7 +78,7 @@ if($ext == '.gif'){
     $image = imagecreatetruecolor($newWidth, $newHeight);
     imagecopyresampled($image, $baseImage, 0, 0, 0, 0, $newWidth, $newHeight, $width, $height);
     imagepng($image, '../member_picture/'.$imageName);
-}else if($ext == '.jpg' || $ext == '.jpeg'){
+}else if($ext == '.jpg' || $ext == '.jpeg' || $ext == '.JPG' || $ext == '.JPEG'){
     $baseImage = imagecreatefromjpeg('../member_picture/'.htmlspecialchars($imageName,ENT_QUOTES));
     $image = imagecreatetruecolor($newWidth, $newHeight);
     imagecopyresampled($image, $baseImage, 0, 0, 0, 0, $newWidth, $newHeight, $width, $height);
