@@ -1,0 +1,970 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	position: relative;
+}
+
+header{
+	margin:0px;
+	position: fixed;
+	top:0;
+	left:0;
+	width: 100%;
+	z-index: 10;
+	background-color: rgba(255,205,73,1);
+	color: white;	
+}
+
+header h2{
+	display: inline;
+	margin:0px;
+}
+
+.header-title{
+	text-align: center;
+}
+
+.header-title img{
+	height: 30px;
+}
+
+.header-wrapper{
+	position: relative;
+	height: 400px;
+	background-image: url("../join/head1.png");
+	background-size: cover;
+}
+
+.header-wrapper img{
+	height: 30px;
+	margin-left: 20px;
+}
+
+.header-wrapper a{
+	float: right;
+	margin-right: 20px;
+	padding:5px 10px;
+	color: white;
+	font-weight: bold;
+	border-radius: 5px;
+	border:1px solid white;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    appearance: none;
+}
+
+.res-phone{
+	display: none;
+}
+
+.error-wrapper{
+	border: 1px solid red;
+}
+
+.error-container{
+	margin:10px 20px;
+}
+
+.mobileUser-wrapper{
+	border-bottom: 1px solid #888;
+}
+
+.mobileUser-container{
+
+}
+
+.mobileUser-container img{
+	object-fit: cover;		
+	width: 40px;
+	height: 40px;
+    border-radius: 50px;
+    border: 1px solid #999;	
+}
+
+.mobileUser-container span{
+	font-size: 12px;
+}
+
+
+/*--------------modal------------------ */
+.modal-background{
+	position: fixed;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.3);
+	z-index: 10;
+	display: none;
+}
+
+.tweetModal-wrapper{
+	position: relative;
+	display: none;
+}
+
+.tweetModal-container{
+	padding: 20px 30px;
+	position: fixed;
+	top: 50%;
+	left:	50%;
+	transform: translate(-50%,-50%);
+	display: inline-block;
+	border: 1px solid gray;
+	background-color: white;
+	border-radius: 10px;
+	z-index: 15;
+}
+
+.tweetModal-container input{
+	font-size: 12px;
+}
+
+.tweetTitle-container{
+	border-bottom: 1px dotted gray;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.tweetClose-container a{
+	color: gray;
+	font-size: 20px;
+}
+
+
+.searchModal-wrapper{
+	position: relative;
+	display: none;
+}
+
+.searchModal-container{
+	padding: 10px 20px;
+	width: 60%;
+	min-width: 250px;	
+	position: fixed;
+	top: 45%;
+	left:	50%;
+	transform: translate(-50%,-50%);
+	display: inline-block;
+	border: 1px solid gray;
+	background-color: white;
+	border-radius: 10px;
+	z-index: 15;
+}
+
+.searchBox{
+	width: 80%;
+}
+
+.searchForm{
+	margin-top: 10px;
+}
+
+.searchTitle-container{
+	border-bottom: 1px dotted gray;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.searchClose-container a{
+	color: gray;
+	font-size: 20px;
+}
+
+
+
+.imgModal-wrapper{
+	width: 90%;
+	background-color: white;
+	position: relative;
+	display: none;
+}
+
+.imgModal-container{
+	height: 70%;
+	width: auto !important;
+	position: fixed;
+	top: 45%;
+	left:	50%;
+	transform: translate(-50%,-50%);
+	z-index: 15;
+	cursor: auto !important;
+}
+
+.configModal-wrapper{
+	position: relative;
+	display: none;	
+}
+
+.configModal-container{
+	padding: 10px 20px;
+	width: 50%;
+	min-width: 250px;
+	position: fixed;
+	top: 45%;
+	left:	50%;
+	transform: translate(-50%,-50%);
+	display: inline-block;
+	border: 1px solid gray;
+	background-color: white;
+	border-radius: 10px;
+	z-index: 15;	
+}
+
+.configClose-container a{
+	color: gray;
+	font-size: 20px;
+}
+
+.configTitle-container{
+	border-bottom: 1px dotted gray;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+
+.configMenu-container a{
+	display: block;
+	font-weight: bold;
+	font-size: 12px;
+	padding: 10px 0;
+}
+
+.configMenu-container a:hover{
+	transition: background-color 0.5s ease 0s;	
+	background-color: rgba(88,117,198,0.2);
+	border-radius: 20px;
+	text-decoration: none;
+}
+
+.configMenu-container i{
+	margin:	0	10px;
+}
+
+
+
+
+/* ----------post--------------- */
+
+.config-wrapper{
+	/*border: 1px solid red;*/
+	position: relative;
+	height: 300px;
+}
+
+.config-container{
+	/*border: 1px solid rgba(255,226,151,1);*/
+	position: fixed;
+	top:	50px;
+	width: 15%;
+}
+
+.config-border{
+	border-bottom: 1px dotted rgba(88,117,198,1);
+	margin-top: 5px;
+}
+
+.config-container a{
+	display: block;
+	font-weight: bold;
+	font-size: 16px;
+	padding: 20px 0;
+}
+
+.config-container a:hover{
+	transition: background-color 0.5s ease 0s;	
+	background-color: rgba(88,117,198,0.2);
+	border-radius: 20px;
+	text-decoration: none;
+}
+
+.config-container i{
+	margin:	0	10px;
+}
+
+.search-wrapper{
+	margin-top: 20px;
+}
+
+.search-wrapper p{
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.searchForm{
+	position: relative;
+	width: 80%;
+}
+
+.searchIcon{
+	color: rgba(88,117,198,1);
+	position: absolute;
+	top: 3px;
+	right: -20px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    appearance: none;	
+    padding-top: 3px;
+}
+
+.searchIcon:hover{
+	color:	rgba(120,150,230,1);	
+}
+
+.searchBox{
+	width: 100%;
+	border:2px solid rgba(88,117,198,1);
+	border-radius: 5px;
+}
+
+/*--------search.php限定css----------*/
+
+.searchResult-wrapper{
+
+}
+
+.searchResult-container{
+	border-bottom:	1px solid #999;
+	margin:5px 10px;
+}
+
+.confUser-container{
+	border-top: 1px dotted rgba(88,117,198,1);
+	background-color: white;
+	text-align: center;
+	padding-bottom: 40px;
+	padding-top: 20px;
+	position: fixed;
+	bottom: 10px;
+	width: 15%;
+}
+
+.confUser-container img{
+	width: 40px;
+	height:	40px;
+}
+
+.postButton{
+	background-color: rgba(88,117,198,1);
+	color: white;
+	border-radius: 10px;
+	padding:10px 20px;
+	box-shadow: 0px 5px rgba(67,74,165,1);
+}
+
+.postButton:hover{
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+}
+
+.postButton:active{
+	position: relative;
+	top:	5px;
+	left:0;
+	box-shadow: none;
+}
+
+/*-------------------*/
+
+.post-wrapper{
+	/*投稿一つのラップ*/
+	border: 3px solid rgba(88,117,198,1);
+	border-radius: 10px;
+	margin-bottom: 0px;
+	margin-top: 30px;
+}
+
+
+.user-container{
+	text-align: left;
+	margin-top: 20px;
+}
+
+.user-container a{
+
+}
+
+.post-container h3{
+	border-bottom: 1px solid #999;
+}
+
+.post-message{
+	margin-top: 10px;
+}
+
+.content-container{
+	height: auto;
+	position: relative;
+}
+
+.contentImg{
+	width: 90%;
+	border:1px	dotted gray;
+	border-radius: 10px;
+	margin-top: 20px;
+}
+
+
+.contentImg:hover{
+	cursor: pointer;
+}
+
+.contentYoutube{
+	width: 90%;
+	height: auto;
+	margin-top: 20px;
+}
+
+.reaction-container{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: flex;
+}
+
+.reaction-container a{
+	margin-right: 30px;
+}
+
+.commentForm-wrapper{
+	position: relative;
+}
+
+.commentMyImg{
+	width: 40px;
+	height: 40px;
+	border:1px solid #999;
+	border-radius: 20px;
+}
+
+#commentForm{
+	width: 70%;
+}
+
+.subComment{
+	position: absolute;
+	top: 10px;
+	background-color:	rgba(88,117,198,1);
+	color: white;
+	border-radius: 5px;
+	font-size: 12px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 5px 10px;
+    appearance: none;
+    margin-left: 10px;
+}
+
+.subComment:hover{
+	background-color:	rgba(120,150,230,1);
+}
+
+.submitBtn{
+	background-color:	rgba(88,117,198,1);
+	color: white;
+	border-radius: 5px;
+	font-size: 12px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 5px 12px;
+    appearance: none;
+    margin-top: 10px;
+}
+
+.submitBtn:hover{
+	background-color:	rgba(120,150,230,1);
+}
+
+
+
+.iconImg{
+  object-fit: cover;
+  width:80px;
+  height: 80px;
+  border-radius: 50px;
+  border: 1px solid #999;
+}
+
+.userName{
+	margin-top: 5px;
+	font-weight: bold;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+
+.userName nobr{
+	font-weight: normal;
+	font-size: 12px;
+}
+
+.postImg{
+	max-width: 1300px;
+}
+
+.good-wrapper{
+	margin-right: 30px;
+}
+
+.good{
+	color: red;
+	margin-bottom: 10px;
+}
+
+.preGood{
+	color:	gray;
+	margin-bottom: 10px;
+}
+
+.deleteRed{
+	color: white;
+	display: block;
+	width: 70px;
+	padding: 2px 2px;
+	margin-bottom: 10px;
+	background-color: #ff6d71;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.deleteRed:hover{
+	text-decoration: none;
+	color: white;
+	background-color: #ffa29e;
+}
+
+.preGood:hover{
+	color:	rgba(255,0,0,0.7);
+}
+
+.embed-responsive-16by9{
+	width: 90%;
+}
+
+/* -----------reviews関連----------- */
+
+.reviews-wrapper{
+	border:	3px solid rgba(255,205,73,1);
+	border-radius: 10px;
+	margin:	20px 0;
+	position: relative;
+}
+
+.reviews-wrapper img{
+	width: 60px;
+	height: 60px;
+	margin: 5px 0;
+}
+
+.reviews-triangle{
+	position: absolute;
+	top:-41px;
+	width: 0px;
+	height: 0px;
+	border:20px solid rgba(255,205,73,1);
+	border-top: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-left: 20px solid transparent;
+}
+
+.reviewsTri-white{
+	position: absolute;
+	top:-37px;
+	width: 0px;
+	height: 0px;
+	border:20px solid rgba(255,255,255,1);
+	border-top: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-left: 20px solid transparent;	
+}
+
+.revUser-container p{
+	margin-left: 4%;/*responsive時に消すこと*/
+}
+
+
+/*-----------page関連-------------*/
+
+.page-wrapper{
+	margin:30px 0;
+	text-align: center;
+}
+
+
+/*-----------------------------*/
+
+.container{
+	position: absolute;
+	left:	50%;
+	transform: translate(-50%,-50%);
+	border: 1px solid purple;
+	z-index: 15;
+}
+
+.tweet-wrapper{
+	max-width: 1000px;
+	border-bottom: 1px dotted black;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+
+.tweet-wrapper span{
+	margin-left: 5px;
+}
+.checkRed{
+	color: red;
+	font-size: 12px;
+}
+
+
+footer{
+	margin-top: 20px;
+	text-align: center;
+}
+
+.footerMenu-wrapper{
+	display: none;
+}
+
+.error{
+	color: red;
+	font-size: 10px;
+}
+
+.develop-wrapper{
+	min-height: 200px;
+	margin: 25px 0;
+	border:1px solid red;
+}
+
+.col-md-10{
+	/*border: 3px dotted red;*/
+}
+
+.footerTweet-wrapper{
+	display: none;
+}
+
+/*----view.php------*/
+.viewPost-wrapper{
+	border: 1px solid rgba(255,205,73,1);
+	border-radius: 10px;
+}
+
+
+/*------userpage.php--------*/
+.userPage-wrapper{
+
+}
+
+.userName-container{
+	border-bottom: 1px solid #999;
+}
+
+/*-------changeIcon.php,checkIcon.php-------*/
+.changeIcon-title{
+	margin-top: 20px;
+	border-bottom: 1px solid #999;
+	margin-bottom: 5px;
+}
+
+.changeIcon-backTimeline{
+	margin-top: 15px;
+	text-align: center;
+}
+
+.changeIcon-back{
+	margin-left: 30px;
+	font-size: 12px;
+	border:1px solid rgba(88,117,198,1);
+	border-radius: 5px;
+	padding:	6px 11px;
+	color: rgba(88,117,198,1);
+}
+
+.changeIcon-back:hover{
+	text-decoration: none;
+	color: rgba(120,140,220,1);
+}
+
+.changeResult-title{
+	margin-top: 30px;
+}
+
+/*------join/index------*/
+
+
+
+
+/*-----responsive----*/
+
+@media screen and (max-width: 990px){
+
+	.res-phone{
+		display: block;
+	}	
+
+	header h2{
+		font-size: 1px;
+		display: none;
+	}
+
+	header i{
+		font-size: 30px;
+		color: white;
+	}
+
+	.config-wrapper{
+		display: none;
+	}
+
+	.tweet-wrapper{
+		margin-top: 30px;
+	}
+
+	footer{
+		position: fixed;
+		bottom:0px;
+		margin-bottom: 0px;
+		background-color: rgba(255,205,73,1);
+		width: 100%;
+		height: 35px;
+	}
+
+	.footerMenu-wrapper{
+		display: block;
+		height: 50px;
+	}
+
+	footer p{
+		display: none;
+	}
+
+	footer .col-xs-4{
+		margin-top: 3px;
+		text-align: center;
+		border-right: 1px dotted rgba(88,117,198,1);
+	}
+
+	.footerMenu-wrapper button{
+		color: rgba(88,117,198,1);
+		font-size: 22px;
+	}
+
+	.footerTweet-wrapper{
+		display: block;
+		position: fixed;
+		bottom:	50px;
+		right: 30px;
+		padding: 0px 8px;
+		background-color: rgba(88,117,198,1);
+		border:2px solid white;
+		border-radius: 60px;
+	}
+
+	.footerTweet-wrapper a{
+		font-size: 35px;
+		color: white;
+	}
+
+	.footerTweet-wrapper a:hover{
+		cursor: pointer;
+	}
+
+	/*-------modal--------*/
+
+	.tweetModal-container{
+		width: 90%;
+		padding: 10px 15px;
+		border:none;
+	}
+
+	.tweetModal-wrapper textarea{
+		width: 100%;
+	}
+
+	.tweetModal-wrapper p{
+		font-size: 12px;
+	}
+
+	.imgModal-container{
+		min-width: 300px;
+		max-width: 98%;
+		height: auto;
+		max-height: 85%;
+	}
+
+
+	/*------user-container------*/
+
+	.user-container{
+		padding-bottom: 10px;
+		height: 70px;
+	}
+
+	.user-container img{
+		display: inline-block;
+		width: 40px;
+		height: 40px;
+	}
+
+	.iconImg{
+		margin-right: 5px;
+	}
+
+	.user-container p{
+		display: inline-block;
+		margin: 0px 0px;
+	}
+
+	.userInfo-container{
+		margin-top: 0px;
+		margin-left: 5px;
+		font-size: 12px;
+	}
+
+	.createTime{
+		display: inline-block;
+	}
+
+	.userInfo-container a{
+		padding: 0 0;
+		display: inline-block;
+	}
+
+	.userInfo-container p{
+		display: inline-block;
+	}
+
+	.userInfo-container nobr{
+		display: block;
+	}
+
+	.contentImg{
+		width: 100%;
+		border:1px	dotted;
+		border-radius: 10px;
+	}
+	.contentYoutube{
+		width: 100%;
+		height: auto;
+		margin-top: 10px;
+	}
+
+	.userName{
+		font-size: 14px;
+	}
+
+	/*--------post-container--------*/
+	.res-pc{
+		display: none;
+	}
+
+	.post-wrapper{
+		margin-top: 40px;
+		padding-bottom: 10px;
+		border: 2px solid rgba(88,117,198,1);	
+	}
+
+
+	.post-container h3{
+		font-size: 18px;
+		margin-top: 0px;
+	}
+
+	.msg-container p{
+		font-size: 14px;
+	}
+
+	.post-message{
+		margin-top: 0px;
+	}	
+
+	.reaction-container i,nobr,a{
+		font-size: 12px;
+	}
+
+	.reaction-container{
+		display: flex;
+		flex-direction: column;
+	}
+
+	#commentForm{
+		width: 100%;
+		height: 50%;
+	}
+	.subComment{
+		position: static;
+		display: inline-block;
+		float: right;
+		font-size: 8px;
+	}
+
+	.clear{
+		clear: right;
+	}
+
+	/*-------review-------*/
+	.revUser-container img{
+		width: 40px;
+		height:	40px;
+		display: inline-block;
+	}
+
+	.revUserRes-wrapeer{
+		margin-left: 60px;
+	}
+
+	.revUserRes-wrapeer p{
+		font-size: 12px;
+	}
+
+	.deleteRed{
+		margin-left: 20px;
+	}
+
+	/*----- page ------*/
+	.page-wrapper{
+		font-size: 12px;
+	}
+
+	/*----- changeIcon/checkIcon-----*/
+	.changeIcon-title{
+		margin-top:40px;
+	}
+
+	.changeIcon-title h4{
+		font-size: 16px;
+	}
+
+	.changeIcon-form p{
+		font-size: 12px;
+	}
+
+	.changeIcon-form input{
+		font-size: 12px;
+	}
+
+	.fright{
+		float: right;
+	}
+
+	.changeResult-title{
+		margin-top: 40px;
+	}
+
+
+
+}
