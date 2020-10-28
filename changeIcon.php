@@ -21,7 +21,7 @@ if(!empty($_FILES)) {
     if(!empty($fileName)){
         $ext = substr($fileName, -4);
         if($ext != '.jpg' && $ext !='.png' && $ext !='.PNG' 
-                && $ext !='.gif' && $ext != 'JPEG' && $ext != 'jpeg'){
+                && $ext !='.gif' && $ext != 'JPEG' && $ext != 'jpeg' && $ext != '.JPG'){
                 $error['image'] = 'type';        
         }
     }
@@ -49,11 +49,6 @@ if(!empty($_FILES)) {
 }
 
 $iconExt = substr($member['picture'],-4);
-
-
-
-
-
 ?>
 
 <!DOCTYPE html>
@@ -101,6 +96,7 @@ $iconExt = substr($member['picture'],-4);
                         <input type="submit" value="&#xf002;" class="fas searchIcon">
                     </form>
                 </div>
+
             </div>
 
             <div class="confUser-container">
