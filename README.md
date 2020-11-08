@@ -9,7 +9,7 @@ macOS Catalina(v10.15.7)
 
 
 #### 利用言語
-HTML, CSS, JavaScript(jQuery), MySQL(Ver 8.0.20), PHP(Ver 7.3.11)
+HTML, CSS, JavaScript(jQuery), SQL(MySQL Ver 8.0.20), PHP(Ver 7.3.11)
 
 
 #### インフラ
