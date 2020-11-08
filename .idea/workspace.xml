@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e5e8eac1-3127-4135-af44-6a7b157a5181" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/liko(AWS)repo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/join/.idea/join.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/join/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/join/index.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3" />
+  <component name="ProjectId" id="1k07qR1BvOFlAtCYLGv3SJHvFx9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e5e8eac1-3127-4135-af44-6a7b157a5181" name="Default Changelist" comment="" />
+      <created>1604825846142</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604825846142</updated>
+      <workItem from="1604825847399" duration="107000" />
+      <workItem from="1604825980064" duration="885000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="833" y="-871" key="#CLI_Interpreters" timestamp="1604826257576">
+      <screen x="-115" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="833" y="-871" key="#CLI_Interpreters/0.23.1624.1027/-115.-1057.1920.1057@-115.-1057.1920.1057" timestamp="1604826257576" />
+    <state x="955" y="-883" key="#PHP" timestamp="1604826258794">
+      <screen x="-115" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="955" y="-883" key="#PHP/0.23.1624.1027/-115.-1057.1920.1057@-115.-1057.1920.1057" timestamp="1604826258794" />
+    <state x="370" y="-976" key="SettingsEditor" timestamp="1604826045872">
+      <screen x="-115" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="370" y="-976" key="SettingsEditor/0.23.1624.1027/-115.-1057.1920.1057@-115.-1057.1920.1057" timestamp="1604826045872" />
+    <state x="-115" y="-1057" key="com.jetbrains.php.config.phpInfo.PhpInfo.PhpInfoDialog" timestamp="1604826107798">
+      <screen x="-115" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="-115" y="-1057" key="com.jetbrains.php.config.phpInfo.PhpInfo.PhpInfoDialog/0.23.1624.1027/-115.-1057.1920.1057@-115.-1057.1920.1057" timestamp="1604826107798" />
+  </component>
+</project>

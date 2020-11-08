@@ -356,8 +356,6 @@ if($_REQUEST['action'] == 'rewrite'){
 
 
             </div>
-
-
         </div><!-- container 20.11.8追加 -->
 
 
