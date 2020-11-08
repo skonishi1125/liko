@@ -2,13 +2,13 @@
 ポートフォリオSNSページ「Liko」のリポジトリです。
 
 ## 開発環境
-#### 利用ハードウェア
+#### 開発用ハードウェア
 MacBook Air (Retina, 13-inch, 2020)
 
 macOS Catalina(v10.15.7)
 
 
-#### 利用言語
+#### 使用言語
 HTML, CSS, JavaScript(jQuery), SQL(MySQL v8.0.20), PHP(v7.4.7)
 
 
@@ -16,7 +16,7 @@ HTML, CSS, JavaScript(jQuery), SQL(MySQL v8.0.20), PHP(v7.4.7)
 Amazon Lightsail, Route 53
 
 
-#### その他利用したもの
+#### その他使用したもの
 phpMyAdmin
 
 Git(Github, Sourcetree)
