@@ -456,6 +456,11 @@ footer{
   border: 1px solid #999;
 }
 
+.profileImg{
+	border-radius: 20px;
+	border:1px solid #333;
+}
+
 /*--------thanks----------*/
 
 .thanks-footer{
@@ -602,6 +607,16 @@ footer{
 	.pic-container{
 		width: 100%;
 		text-align: center;
+	}
+
+	.profile-container{
+		width: 100%;
+		text-align: center;
+	}
+
+	.profile-container img{
+		width: 85%;
+		max-width: 400px;
 	}
 
 

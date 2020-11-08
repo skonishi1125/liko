@@ -335,7 +335,37 @@ if($_REQUEST['action'] == 'rewrite'){
                 <p>Likoの仕組みを確認したい場合はこちらでのログインをお試しください。</p>
             </div>
 
-        </div><!-- container -->        
+        </div><!-- container -->
+
+
+        <div class="container profile-container">
+            <div class="center-bar"></div>
+            <div class="contents-title">
+                <h2>製作者プロフィール</h2>
+            </div>  
+
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="profile.png" class="profileImg">
+                </div>
+
+                <div class="col-md-6">
+                    <h4>小西 慧</h4>
+                    <p>1996年11月25日生まれ (2020年11月現在:24歳) </p>
+                </div>
+
+
+            </div>
+
+
+        </div><!-- container 20.11.8追加 -->
+
+
+
+
+
+
+
 
         <div class="container">
             <div class="col-md-12 top-btn">
@@ -352,7 +382,7 @@ if($_REQUEST['action'] == 'rewrite'){
                 <img src="headerlogo.png">
             </div>
             <div class="footer-container">
-                <p>2020 ©︎skonishi.</p>
+                <p>2020 ©︎Satoru Konishi.</p>
             </div>
         </footer>
 
