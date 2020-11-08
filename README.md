@@ -9,21 +9,15 @@ macOS Catalina(v10.15.7)
 
 
 #### 利用言語
-HTML
-
-CSS
-
-JavaScript(jQuery)
-
-PHP Ver 7.3.11
+HTML, CSS, JavaScript(jQuery), MySQL(Ver 8.0.20), PHP(Ver 7.3.11)
 
 
 #### インフラ
-Amazon Lightsail,Route 53
+Amazon Lightsail, Route 53
 
 
 #### その他利用したもの
-mysql  Ver 8.0.20(phpMyAdminを使用)
+phpMyAdmin
 
 Git(Github, Sourcetree)
 
